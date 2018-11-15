@@ -84,6 +84,19 @@ $> yarn audit
 $> yarn start
 ```
 
+### Start with docker
+
+```sh
+$> docker pull xqstencils/node-jest-react-server
+$> docker run --name node-jest-react-server -d -p 80:80 xqstencils/node-jest-react-server
+```
+
+### Access the online site
+
+```sh
+$> open https://node-jest-react-server.herokuapp.com
+```
+
 ## License
 
 node-jest-react-server is released under the [MIT license](https://github.com/xqstencils/node-jest-react-server/blob/master/LICENSE).
